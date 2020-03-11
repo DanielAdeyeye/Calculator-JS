@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: black;
+}
+
+.wrapper {
+    background-color: black;
+    min-height: 80%;
+    max-width: 80%;
+    justify-content: center;
+}
+
+.calculator_screen {
+    background-color: grey;
+    color: #ffffff;
+    height: 10vh;
+    width: 70vw;
+}
+
+.calculator_keys {
+    display: grid;
+    grid-gap: 2px;
+}
+
+.button {
+    display: grid;
+    color: grey;
+}
+
